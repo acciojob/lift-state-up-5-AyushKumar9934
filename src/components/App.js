@@ -8,6 +8,7 @@ const App = () => {
   return (
    
     <div>
+      <h1>Parent Component</h1>
      {
       isLoggedIn?<p>Yor are logged in!</p>:<Child setIslogin={setIslogin} />
      }
